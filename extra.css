@@ -1,0 +1,56 @@
+h1 {
+    color:#00FF00;
+    font-family: Monospace;
+    font-size: 300px;
+}
+* {
+    border : solid
+}
+body{
+    background-color: #FF0000;
+}
+.hamm{
+    background-color: #ff00ea;
+}
+.yeet{
+    background-color:#7241859d;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skinks{
+    background-color: #ffe600;
+    margin: 30px;
+    padding: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    border : solid;
+}
+
+a:link{
+    color : #00ffea;
+}
+a:visited{
+    color : #FF0000
+}
+
+.item {
+    margin-right: 1300px;
+    position : relative;
+    margin-left: 200px;
+}
+
+.item p {
+    color: rgb(21, 255, 0);
+    position : absolute;
+    top : 50%;
+    left: 10%;
+    transform : translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.2;
+}
